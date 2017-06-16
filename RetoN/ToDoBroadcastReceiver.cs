@@ -87,7 +87,7 @@ namespace RetoN
             if (intent.Extras.ContainsKey("message"))
             {
                 message = intent.Extras.Get("message").ToString();
-                var title = "New item added:";
+                var title = "Championship - Reto N";
 
                 // Create a notification manager to send the notification.
                 var notificationManager =
